@@ -1,6 +1,6 @@
 # CS 626 (Natural Language Processing)
 ## 🤖 HMM POS Tagging
-Project Overview
+### Project Overview
 This project implements a Part-of-Speech (POS) tagging system using Hidden Markov Model (HMM) and the Viterbi Algorithm. The goal is to tag sequences of words from the Brown corpus with their corresponding POS tags using a probabilistic model. The POS tags are based on the Universal Tag Set, and the system undergoes 5-fold cross-validation to ensure robustness.
 
 ### Key Components
@@ -21,7 +21,7 @@ This project implements a Part-of-Speech (POS) tagging system using Hidden Marko
 Hands-on experience with probabilistic modeling and sequence labeling.
 Gained understanding of the limitations of HMMs, particularly in handling complex contexts.
 ## 🤖 CRF POS Tagging
-Project Overview
+### Project Overview
 This project extends POS tagging capabilities using a Conditional Random Field (CRF) model. Unlike HMM, CRF models consider the entire sentence as a whole, leveraging contextual information and additional features to improve tagging accuracy. The system is also tested on the Brown corpus using the Universal Tag Set, with 5-fold cross-validation applied.
 
 ### Key Components
