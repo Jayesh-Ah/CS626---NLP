@@ -9,9 +9,9 @@ This project implements a Part-of-Speech (POS) tagging system using Hidden Marko
 - HMM Model: The model is trained using the Brown corpus, computing transition and emission probabilities to determine the most likely sequence of tags for a given sentence.
 - Viterbi Algorithm: Utilized for decoding the POS tag sequence, ensuring optimal backtracking to assign the most probable tag sequence for each word.
 - Performance Metrics:
--- Precision: 0.9484
--- Recall: 0.9348
--- F1-Score: 0.9334
+  - Precision: 0.9484
+  - Recall: 0.9348
+  - F1-Score: 0.9334
 ### Challenges
 
 - Contextual Confusion: The model struggled with ambiguous words like "fish" and "running," confusing nouns and verbs.
@@ -27,14 +27,14 @@ This project extends POS tagging capabilities using a Conditional Random Field (
 ### Key Components
 
 - Feature Extraction:
--- Suffix and Prefix Analysis: Extracts features from the last two and three characters of each word to identify common suffixes.
--- Position-Based Features: Incorporates features for the first and last words of a sentence, surrounding words, and word structure (e.g., hyphens, numbers).
--- Capitalization Features: Identifies capitalization patterns and internal capital letters in words.
+  - Suffix and Prefix Analysis: Extracts features from the last two and three characters of each word to identify common suffixes.
+  - Position-Based Features: Incorporates features for the first and last words of a sentence, surrounding words, and word structure (e.g., hyphens, numbers).
+  - Capitalization Features: Identifies capitalization patterns and internal capital letters in words.
 - CRF Model: Captures both word-level and contextual features to predict the most accurate POS tags.
 - Performance Metrics:
--- Precision: 0.991
--- Recall: 0.984
--- F1-Score: 0.987
+  - Precision: 0.991
+  - Recall: 0.984
+  - F1-Score: 0.987
 ### Challenges
 
 - Memory Overload: High RAM usage during feature extraction, especially for unknown words and embeddings, led to performance issues.
